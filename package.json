@@ -1,0 +1,73 @@
+{
+  "name": "ai-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "devw": "vue-cli-service build --mode development --watch ",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.8.3",
+    "debounce": "^1.2.1",
+    "eruda": "^3.0.0",
+    "moment": "^2.29.4",
+    "node-sass": "^8.0.0",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^13.2.0",
+    "simple-code-editor": "^1.2.2",
+    "socket.io-client": "^4.6.0",
+    "vue": "^2.6.14",
+    "vue-audio-visual": "^2.5.0",
+    "vue-collapsible-component": "^0.1.3",
+    "vue-color": "^2.8.1",
+    "vue-linkify": "^1.0.1",
+    "vue-pagination-2": "^3.1.0",
+    "vue-progress-circle": "^1.1.2",
+    "vue-router": "3.1.6",
+    "vue-select": "^3.20.2",
+    "vue-simple-suggest": "^1.11.2",
+    "vue-slider-component": "^3.2.24",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-textarea-autosize": "^1.1.1",
+    "vue2-touch-events": "^3.2.2",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.6.2",
+    "wavesurfer.js": "^6.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "resolutions": {
+    "webpack": "5.82.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

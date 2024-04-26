@@ -1,0 +1,7 @@
+node_modules
+dist
+public-site
+.env.local
+yarn.lock
+src/.DS_Store
+.DS_Store

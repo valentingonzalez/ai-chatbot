@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# can't have these behind proxy
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP_HOST} ^chat\.ezad\.io$
+#RewriteRule ^(.*)$ https://chat.ezad.io%{REQUEST_URI} [L,R=301]
+
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP_HOST} ^chat\.ezai\.io$
+#RewriteRule ^(.*)$ https://chat.ezai.io%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]

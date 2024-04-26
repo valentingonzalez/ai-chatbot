@@ -1,0 +1,38 @@
+$primary: #dc2631;
+$secondary: #0F172A;
+$link-color: $secondary;
+$body-bg: #fff;
+$card-bg: scale-color($body-bg, $lightness: +5%, $saturation: -5%);
+$text: #000;
+$font: 'Helvetica Neue';
+$info: #3360FF;
+$color-discord: #3D4AE1;
+$color-telegram: #0088cc;
+$body-color: #000;
+$border-color: $primary;
+$enable-negative-margins: true !default;
+
+:root {
+  --bs-body-lighter-bg: #f3f4f6;
+  --bs-badge-bg: #{scale-color($body-bg, $lightness: +5%, $saturation: -5%)};
+  --bs-badge-text: #{$body-color};
+  --bs-card-border: #{scale-color($body-bg, $lightness: +8%, $saturation: -17%)};
+  --bs-form-control-bg: #{scale-color($body-bg, $lightness: +10%, $saturation: -17%)};
+  --bs-font-sans-serif: #{$font}, sans-serif;
+  //--bs-gradient: #{linear-gradient(130deg, scale-color(color.change($primary, $hue: 265), $lightness: +23%, $saturation: -17%) -7.64%, $primary 119.24%)};
+  --bs-dm-bg: var(--bs-body-light-bg);
+  --bs-dm-unread-bg: #{scale-color($body-bg, $lightness: +30%, $saturation: -40%)};
+  --bs-info: #{$info};
+  --bs-danger: #E51446;
+  --ceo-gold: #FFC83A;
+  --ba-blue: #2FF0FC;
+  --ceo-gold-gradient: linear-gradient(90deg, #c6972a 0%, #a06b0f 20.31%, #E7B90E 33.18%, #efd560 40.45%, #CD9A04 49.24%, #E7B90E 72.64%, #c6972a 100%);
+  --ba-blue-gradient: linear-gradient(90deg, #1edfec 0%, #00A4EA 20.31%, #2fd0fc 33.18%, #0098df 40.45%, #2f8ffc 49.24%, #00A4EA 72.64%, #1edfec 100%);
+  --bs-success: #0BC482;
+  --bs-gutter-x: 20px;
+  --color-discord: #{$color-discord};
+  --color-telegram: #{$color-telegram};
+  --tablet-resolution: 768px;
+  --mobile-medium-resolution: 576px;
+  --mobile-resolution: 430px;
+}
